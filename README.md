@@ -1,6 +1,6 @@
 # Bitcoin Trend Alert in Google Trends
 
-This script monitors the Google Trends data for the keyword "Bitcoin" and sends a WhatsApp message when a "streak" (period of prolonged growth) in interest is detected for "Bitcoin." The alert is sent via the [CallMeBot API](https://callmebot.com).
+This script monitors the Google Trends data for the keyword "Cryptos" and marks a graph when a "streak" (period of prolonged growth) in interest is detected for "Cryptos".
 
 ## Functionality
 
