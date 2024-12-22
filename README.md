@@ -20,5 +20,6 @@ This script monitors the Google Trends data for the keyword "Cryptos" and marks 
    ```bash
    pip install pandas pytrends requests
 
-![Bitcoin Trend Figure](img/Figure_1.png)
+![Bitcoin Trend Figure1](img/Figure_1.png)
+![Bitcoin Trend Figure2](img/Figure_2.png)
 
