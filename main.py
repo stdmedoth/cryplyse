@@ -32,7 +32,7 @@ if not interest_over_time_df.empty:
 
     # Define a threshold for sustained increase (based on cumulative growth)
     sustained_increase_threshold = 8  # Total cumulative growth
-    sustained_period_threshold = 4     # Minimum number of consecutive periods
+    sustained_period_threshold = 7     # Minimum number of consecutive periods
     intervals = {}
 
     for keyword in keywords:
