@@ -6,12 +6,13 @@ import matplotlib.pyplot as plt
 pytrend = TrendReq(hl='pt-BR', tz=240)
 
 # Define keywords
-#keywords = ["Bitcoin", "BTC",  "Crypto", "Binance", "Ethereum"]
+keywords = ["Bitcoin", "BTC",  "Crypto", "Binance", "Ethereum"]
 #keywords = ["Bitcoin", "ADA"]
-keywords = ["Bitcoin", "SHIBA", "SHIB", "DOGECOIN", "DOGE"]
+#keywords = ["Bitcoin", "SHIBA", "SHIB", "DOGECOIN", "DOGE"]
 
 # Build payload
-pytrend.build_payload(keywords, timeframe='today 5-y', geo='')
+#pytrend.build_payload(keywords, timeframe='today 5-y', geo='')
+pytrend.build_payload(keywords, timeframe='now 4-H', geo='')
 
 # Fetch interest over time
 interest_over_time_df = pytrend.interest_over_time()
