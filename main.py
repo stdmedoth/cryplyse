@@ -31,8 +31,8 @@ if not interest_over_time_df.empty:
     derivatives = smoothed_data.diff().dropna()
 
     # Define a threshold for sustained increase (based on cumulative growth)
-    sustained_increase_threshold = 6  # Total cumulative growth
-    sustained_period_threshold = 4     # Minimum number of consecutive periods
+    sustained_increase_threshold = 8  # Total cumulative growth
+    sustained_period_threshold = 7     # Minimum number of consecutive periods
     intervals = {}
 
     for keyword in keywords:
